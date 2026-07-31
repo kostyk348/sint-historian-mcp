@@ -84,4 +84,4 @@ Works with [sint-memory](https://github.com/kostyk348/sint-ua-v2.1) hash-chain b
 
 ## License
 
-MIT
+Apache 2.0

@@ -1,11 +1,16 @@
-> **DEPRECATED** — This repo has been merged into the monorepo:  
-> **[kostyk348/sint](https://github.com/kostyk348/sint)** → `mcp/historian/`  
->  
+> **DEPRECATED** — This repo has been merged into the monorepo:
+> **[kostyk348/sint](https://github.com/kostyk348/sint)** → `mcp/historian/`
+>
 > This repository is archived for reference only. Active development continues in the monorepo.
 
 ---
 
 # sint-historian-mcp
+
+[![CI](https://github.com/kostyk348/sint-historian-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/kostyk348/sint-historian-mcp/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/kostyk348/sint-historian-mcp?sort=semver&color=blue)](https://github.com/kostyk348/sint-historian-mcp/releases)
+[![License](https://img.shields.io/badge/license-Apache-2.0-green)](https://github.com/kostyk348/sint-historian-mcp/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/sint-historian-mcp?branch=main)](https://github.com/kostyk348/sint-historian-mcp/commits/main)
 
 Cross-session work analyst for the [SINT](https://github.com/kostyk348/sint-ua-v2.1) agent ecosystem.
 
@@ -65,17 +70,22 @@ python server.py    # stdio mode
 
 ```python
 # What did I work on this week?
+
 work_report(period="this_week")
 
 # Show project timeline
+
 project_timeline(project="sint-devflow-mcp")
 
 # Find patterns
+
 find_patterns(query="crypto implementation")
 
 # Am I drifting?
+
 drift_analysis()
 # → "80% of recent sessions on sint-*, only 20% on DSO core"
+
 ```
 
 ## Integration

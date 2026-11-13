@@ -1,18 +1,20 @@
-> **DEPRECATED** — This repo has been merged into the monorepo:
-> **[kostyk348/sint](https://github.com/kostyk348/sint)** → `mcp/historian/`
->
-> This repository is archived for reference only. Active development continues in the monorepo.
+<div align="center">
 
----
+<img src="docs/banner.svg" alt="sint-historian-mcp banner" width="1000">
 
 # sint-historian-mcp
+
+### Cross-session work analyst for the [SINT](https://github.com/kostyk348/sint-ua-v2.1) agent ecosystem.
 
 [![CI](https://github.com/kostyk348/sint-historian-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/kostyk348/sint-historian-mcp/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/kostyk348/sint-historian-mcp?sort=semver&color=blue)](https://github.com/kostyk348/sint-historian-mcp/releases)
 [![License](https://img.shields.io/badge/license-Apache-2.0-green)](https://github.com/kostyk348/sint-historian-mcp/blob/main/LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/kostyk348/sint-historian-mcp?branch=main)](https://github.com/kostyk348/sint-historian-mcp/commits/main)
 
-Cross-session work analyst for the [SINT](https://github.com/kostyk348/sint-ua-v2.1) agent ecosystem.
+</div>
+
+---
+
 
 Provides session statistics, project timelines, pattern search, drift detection, and work reports. Integrates with [sint-memory](https://github.com/kostyk348/sint-ua-v2.1) for structured memory analysis.
 
